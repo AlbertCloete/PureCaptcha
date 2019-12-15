@@ -1,0 +1,14 @@
+{
+    "name": "albert/pure-captcha",
+    "description": "Easy to use captcha without other dependencies.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "AlbertCloete\\PureCaptcha\\": "src"
+        }
+    }
+}

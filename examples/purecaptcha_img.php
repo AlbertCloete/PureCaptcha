@@ -5,8 +5,7 @@ if (!isset($_GET['t']))
 else
     $title = $_GET['t'];
 
-
-require_once "purecaptcha.php";
+require_once "../src/PureCaptcha/purecaptcha.php";
 
 $p = new PureCaptcha();
 $_SESSION["captcha_{$title}"] = $p->show();

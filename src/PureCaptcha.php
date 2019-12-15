@@ -1,4 +1,7 @@
 <?php
+
+namespace AlbertCloete\PureCaptcha;
+
  /**
  * OWASP PureCaptcha
  * Generates simple CAPTCHAs without any dependencies (no GD, no API).
